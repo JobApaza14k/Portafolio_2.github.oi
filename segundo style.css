@@ -1,0 +1,56 @@
+/* 🔹 Fondo animado */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(270deg, #4B0082, #800080, #9932CC);
+  background-size: 600% 600%;
+  animation: fondoAnimado 15s ease infinite;
+  color: white;
+}
+
+@keyframes fondoAnimado {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* 🔹 Imagen superior */
+header img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+/* 🔹 Barra de navegación */
+nav {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+/* 🔹 Secciones */
+section {
+  padding: 50px;
+  text-align: center;
+}
+
+h1, h2 {
+  text-shadow: 2px 2px 8px black;
+}
