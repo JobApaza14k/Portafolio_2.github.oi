@@ -1,5 +1,6 @@
 /* 🔹 Fondo animado */
 body {
+  background-color: #4A90E2; /* Este es un color azul. Puedes cambiarlo. */
   margin: 0;
   font-family: Arial, sans-serif;
   background: linear-gradient(270deg, #4B0082, #800080, #9932CC);
@@ -54,3 +55,4 @@ section {
 h1, h2 {
   text-shadow: 2px 2px 8px black;
 }
+
